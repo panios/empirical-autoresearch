@@ -1,0 +1,10 @@
+[project]
+name = "empirical-autoresearch"
+version = "0.1.0"
+description = "Dashboard-driven autoresearch loop: measured feedback + falsifiable predictions (energy optimization as the example use case)"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "numpy",
+    "pandas>=2.3.3",
+]

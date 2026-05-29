@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+.venv/
+
+# Claude Code local settings
+.claude/
+
+# Per-run artifacts (kept locally, regenerated each loop)
+run.log
+results.tsv

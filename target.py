@@ -1,5 +1,8 @@
 """Naive N-body simulation. The target the agent optimizes."""
 
+import os
+os.environ['VECLIB_MAXIMUM_THREADS'] = '1'
+
 import numpy as np
 
 N_BODIES = 200

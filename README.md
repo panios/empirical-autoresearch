@@ -68,7 +68,6 @@ results.tsv       — append-only experiment log (untracked)
 hypotheses.md     — human-readable hypothesis log (generated)
 progress.png      — optimisation curve (generated)
 pyproject.toml    — dependencies (numpy, matplotlib, pandas)
-images/           — static assets
 ```
 
 ## How it differs from Karpathy's autoresearch
@@ -172,3 +171,7 @@ This writes `progress.png` and `hypotheses.md` from the current `results.tsv`.
 - `results.tsv` shows the agent's predictions were calibrated more often than not.
 - Commit messages read like a research notebook: hypothesis, prediction, outcome.
 - `hypotheses.md` shows *why* each change was made, not just what changed.
+
+## License
+
+MIT
